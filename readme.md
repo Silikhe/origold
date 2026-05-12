@@ -156,4 +156,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Developed with a focus on modern product experience, scalability, and engineering best practices.
+Silas Silikhe - Developed with a focus on modern product experience, scalability, and engineering best practices.
