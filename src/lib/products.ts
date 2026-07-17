@@ -6,6 +6,9 @@ import roseShea from "@/assets/imgs/Rose Shea Butter - Luxury Mockup.png";
 import singleJar from "@/assets/imgs/ORI GOLD Single Jar Product Shot.png";
 import multiProduct from "@/assets/imgs/ORI GOLD Multi-Product Mockup.png";
 import bathroomLifestyle from "@/assets/imgs/ORI GOLD Lifestyle Bathroom Scene.png";
+import purePreview from "@/assets/imgs/pure.jpeg";
+import whatsappPreview from "@/assets/imgs/WhatsApp Image 2026-07-14 at 12.06.05 (2).jpeg";
+import whippedSheaAlt from "@/assets/imgs/Whipped Shea Butter - Luxury Mockup1.png";
 import sheaHero from "@/assets/shea-hero.jpg";
 import sheaDetail from "@/assets/shea-detail-main.jpg";
 import sheaCollection from "@/assets/shea-collection.jpg";
@@ -47,7 +50,7 @@ export const products: Product[] = [
     rating: 5,
     reviews: 0,
     image: pureShea,
-    gallery: [pureShea, bathroomLifestyle, singleJar],
+    gallery: [pureShea, bathroomLifestyle, singleJar, purePreview, whatsappPreview],
     category: "Body Butters",
     description: "100% pure, unrefined Shea Butter",
   },
@@ -59,7 +62,7 @@ export const products: Product[] = [
     rating: 5,
     reviews: 0,
     image: whippedShea,
-    gallery: [whippedShea, multiProduct, vanillaShea],
+    gallery: [whippedShea, multiProduct, vanillaShea, whippedSheaAlt],
     category: "Body Butters",
     description: "Whipped to perfection for light texture",
   },
@@ -74,8 +77,6 @@ export const products: Product[] = [
     gallery: [lavenderShea, bathroomLifestyle, whippedShea],
     category: "Body Butters",
     description: "Calms and soothes the skin",
-    badge: "Coming Soon",
-    comingSoon: true,
   },
   {
     slug: "rose-shea-butter",
@@ -88,8 +89,6 @@ export const products: Product[] = [
     gallery: [roseShea, multiProduct, singleJar],
     category: "Body Butters",
     description: "Hydrates and nourishes deeply",
-    badge: "Coming Soon",
-    comingSoon: true,
   },
 ];
 

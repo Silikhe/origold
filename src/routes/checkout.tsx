@@ -131,13 +131,13 @@ function Checkout() {
                     <p className="mt-3 text-2xl font-semibold">247247</p>
                   </div>
                   <div className="rounded-none border border-[#e4d2b5] bg-[#fcf7f0] p-5">
-                    <p className="text-xs uppercase tracking-[0.25em] text-[#9b8c7c]">Account Number</p>
-                    <p className="mt-3 text-2xl font-semibold">ORIGOLD1OPXQD</p>
+                    <p className="text-xs uppercase tracking-[0.25em] text-[#9b8c7c]">Order Number</p>
+                    <p className="mt-3 text-2xl font-semibold">+254700423292</p>
                   </div>
                 </div>
 
                 <p className="mt-6 max-w-xl text-sm leading-6 text-[#6d6257]">
-                  Please use the account number above for your M-PESA payment.
+                  Please use the order number above for your M-PESA payment.
                 </p>
               </section>
 
