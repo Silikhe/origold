@@ -47,8 +47,8 @@ function ProductDetail() {
   const isInWishlist = state.wishlist.some((p) => p.slug === product.slug);
 
   const sizeOptions = [
-    { id: "50g", label: "50g", price: 600, note: "Single serving" },
     { id: "250g", label: "250g", price: 1650, note: "Best value" },
+    { id: "50g", label: "50g", price: 600, note: "Single serving" },
   ];
   const [selectedSize, setSelectedSize] = useState(sizeOptions[0]);
 
