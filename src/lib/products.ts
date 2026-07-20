@@ -1,17 +1,6 @@
-import vanillaShea from "@/assets/imgs/Vanilla Shea Butter - Luxury Mockup.png";
-import pureShea from "@/assets/imgs/Pure Shea Butter - Luxury Mockup.png";
-import whippedShea from "@/assets/imgs/Whipped Shea Butter - Luxury Mockup.png";
-import lavenderShea from "@/assets/imgs/Lavender Shea Butter - Luxury Mockup.png";
-import roseShea from "@/assets/imgs/Rose Shea Butter - Luxury Mockup.png";
-import singleJar from "@/assets/imgs/ORI GOLD Single Jar Product Shot.png";
-import multiProduct from "@/assets/imgs/ORI GOLD Multi-Product Mockup.png";
-import bathroomLifestyle from "@/assets/imgs/ORI GOLD Lifestyle Bathroom Scene.png";
-import purePreview from "@/assets/imgs/pure.jpeg";
-import whatsappPreview from "@/assets/imgs/WhatsApp Image 2026-07-14 at 12.06.05 (2).jpeg";
-import whippedSheaAlt from "@/assets/imgs/Whipped Shea Butter - Luxury Mockup1.png";
-import sheaHero from "@/assets/shea-hero.jpg";
-import sheaDetail from "@/assets/shea-detail-main.jpg";
-import sheaCollection from "@/assets/shea-collection.jpg";
+import vanillaShea from "@/assets/imgs/vanilla.png";
+import lavenderShea from "@/assets/imgs/lavender.jpeg";
+import roseShea from "@/assets/imgs/rose.jpeg";
 
 export type Product = {
   slug: string;
@@ -31,42 +20,6 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    slug: "vanilla-shea-butter",
-    name: "Vanilla Shea Butter",
-    tagline: "Warm & Luxurious",
-    price: 1650,
-    rating: 5,
-    reviews: 0,
-    image: vanillaShea,
-    gallery: [vanillaShea, singleJar, multiProduct],
-    category: "Body Butters",
-    description: "Rich, creamy shea butter with vanilla essence",
-  },
-  {
-    slug: "pure-shea-butter",
-    name: "Pure Shea Butter",
-    tagline: "Simple & Natural",
-    price: 1650,
-    rating: 5,
-    reviews: 0,
-    image: purePreview,
-    gallery: [purePreview, pureShea, bathroomLifestyle, singleJar, whatsappPreview],
-    category: "Body Butters",
-    description: "100% pure, unrefined Shea Butter",
-  },
-  {
-    slug: "whipped-shea-butter",
-    name: "Whipped Shea Butter",
-    tagline: "Light & Fluffy",
-    price: 1650,
-    rating: 5,
-    reviews: 0,
-    image: whippedShea,
-    gallery: [whippedShea, multiProduct, vanillaShea, whippedSheaAlt],
-    category: "Body Butters",
-    description: "Whipped to perfection for light texture",
-  },
-  {
     slug: "lavender-shea-butter",
     name: "Lavender Shea Butter",
     tagline: "Calming & Soothing",
@@ -74,9 +27,21 @@ export const products: Product[] = [
     rating: 5,
     reviews: 0,
     image: lavenderShea,
-    gallery: [lavenderShea, bathroomLifestyle, whippedShea],
+    gallery: [lavenderShea],
     category: "Body Butters",
     description: "Calms and soothes the skin",
+  },
+  {
+    slug: "vanilla-shea-butter",
+    name: "Vanilla Shea Butter",
+    tagline: "Warm & Luxurious",
+    price: 1650,
+    rating: 5,
+    reviews: 0,
+    image: vanillaShea,
+    gallery: [vanillaShea],
+    category: "Body Butters",
+    description: "Rich, creamy shea butter with vanilla essence",
   },
   {
     slug: "rose-shea-butter",
@@ -86,7 +51,7 @@ export const products: Product[] = [
     rating: 5,
     reviews: 0,
     image: roseShea,
-    gallery: [roseShea, multiProduct, singleJar],
+    gallery: [roseShea],
     category: "Body Butters",
     description: "Hydrates and nourishes deeply",
   },
